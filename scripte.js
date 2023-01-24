@@ -25,5 +25,11 @@ let week = [ 3, 6, 7, 11, 25, 31, 46, 2, 27,39];
 
 let item = 0
 while (item < week.length ) {console.log (week[item]);
-    i++ 
+    item++; 
 }
+//#3
+let months = [5, 28, 100, 115, 128, 141, 147];
+do {
+    console.log(months[index]);
+    i++;
+} while (index < months.length);
